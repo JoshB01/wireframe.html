@@ -15,14 +15,13 @@ console.log("First sport = " + place);
 
 let answer;
 while (answer !== "yes") {
-    answer = prompt("Do you like to workout?");
-    if (answer == "yes") {
-    console.log("Me too!");
-    alert("Me too!");
-    } else {
-    console.log("Are you sure!");
-    alert("Are you sure?");
-    }
+answer = prompt("Do you like to workout?");
+if (answer == "yes") {
+console.log("Me too!");
+alert("Me too!");
+} else {
+console.log("Are you sure!");
+alert("Are you sure?");
 }
 
 // for(let i=1; i<=5; i= i++){
@@ -44,7 +43,6 @@ while (answer !== "yes") {
 return username
 }
 
-// console.log(intro())
 intro()
 
 
